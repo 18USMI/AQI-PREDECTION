@@ -87,7 +87,7 @@ if __name__ == "__main__":
     parser.add_argument("--all",  action="store_true", help="Train all cities")
     args = parser.parse_args()
 
-    cities = ["Kolkata", "Delhi", "Mumbai", "Chennai", "Bangalore"]
+    cities = ["Bihar", "Delhi", "Mumbai", "Chennai", "Bangalore","kolkata"]
 
     if args.all:
         for c in cities:
